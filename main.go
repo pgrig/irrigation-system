@@ -11,7 +11,7 @@ func main() {
   })
   router.GET("/version", func(c *gin.Context) {
     c.JSON(200, gin.H{
-      "version": "v0.1.0",
+      "version": "v0.1.1",
     })
   })
   router.Run() 
